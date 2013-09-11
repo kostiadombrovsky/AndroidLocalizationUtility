@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D1D957B59A75ED249BBD4D /* AndroidStringsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1D9B80CA25A25B3DFC1AF /* AndroidStringsParser.m */; };
 		7E0BCE9917E0B38600B51A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0BCE9817E0B38600B51A35 /* Foundation.framework */; };
 		7E0BCE9C17E0B38600B51A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BCE9B17E0B38600B51A35 /* main.m */; };
 		7E0BCEA017E0B38600B51A35 /* AndroidLocalizationUtility.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E0BCE9F17E0B38600B51A35 /* AndroidLocalizationUtility.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35D1D14FAF31C7C1F67EE6F2 /* AndroidStringsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidStringsParser.h; sourceTree = "<group>"; };
+		35D1D9B80CA25A25B3DFC1AF /* AndroidStringsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidStringsParser.m; sourceTree = "<group>"; };
 		7E0BCE9517E0B38600B51A35 /* AndroidLocalizationUtility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AndroidLocalizationUtility; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0BCE9817E0B38600B51A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E0BCE9B17E0B38600B51A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				7E0BCE9B17E0B38600B51A35 /* main.m */,
 				7E0BCE9F17E0B38600B51A35 /* AndroidLocalizationUtility.1 */,
 				7E0BCE9D17E0B38600B51A35 /* Supporting Files */,
+				35D1D9B80CA25A25B3DFC1AF /* AndroidStringsParser.m */,
+				35D1D14FAF31C7C1F67EE6F2 /* AndroidStringsParser.h */,
 			);
 			path = AndroidLocalizationUtility;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0BCE9C17E0B38600B51A35 /* main.m in Sources */,
+				35D1D957B59A75ED249BBD4D /* AndroidStringsParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
